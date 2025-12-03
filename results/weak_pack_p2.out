@@ -1,0 +1,23 @@
+Level  0 complete (n = 1)
+Level  1 complete (n = 2)
+Level  2 complete (n = 4)
+Level  3 complete (n = 8)
+Level  4 complete (n = 16)
+Level  5 complete (n = 32)
+Level  6 complete (n = 64)
+Level  7 complete (n = 128)
+Level  8 complete (n = 256)
+Level  9 complete (n = 512)
+Level 10 complete (n = 1024)
+Level 11 complete (n = 2048)
+Level 12 complete (n = 4096)
+Level 13 complete (n = 8192)
+
+=== MPI Romberg Integration Summary ===
+Integrand        : sin(x) * exp(-x^2)
+Integration Range: [0.00, 3.14]
+Processes       : 2
+Max Levels      : 13
+Final Estimate  : 4.244375107724e+05
+Total Time      : 11.508905 seconds
+========================================

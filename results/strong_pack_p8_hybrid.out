@@ -1,0 +1,22 @@
+=== Hybrid MPI + OpenMP Romberg ===
+MPI ranks          : 8
+OMP threads/rank   : 2
+Max Romberg level  : 16
+----------------------------------
+Completed level  3 (n=8)
+Completed level  4 (n=16)
+Completed level  5 (n=32)
+Completed level  6 (n=64)
+Completed level  7 (n=128)
+Completed level  8 (n=256)
+Completed level  9 (n=512)
+Completed level 10 (n=1024)
+Completed level 11 (n=2048)
+Completed level 12 (n=4096)
+Completed level 13 (n=8192)
+Completed level 14 (n=16384)
+Completed level 15 (n=32768)
+Completed level 16 (n=65536)
+
+Romberg Estimate   : 4.244375107725e+05
+Total Time         : 305.261043 seconds

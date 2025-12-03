@@ -1,0 +1,24 @@
+
+=== Serial Romberg Integration (Heavy Integrand) ===
+Max Levels: 16
+HEAVY_ITERS: 1000000
+Level  0 completed (n = 1)
+Level  1 completed (n = 2)
+Level  2 completed (n = 4)
+Level  3 completed (n = 8)
+Level  4 completed (n = 16)
+Level  5 completed (n = 32)
+Level  6 completed (n = 64)
+Level  7 completed (n = 128)
+Level  8 completed (n = 256)
+Level  9 completed (n = 512)
+Level 10 completed (n = 1024)
+Level 11 completed (n = 2048)
+Level 12 completed (n = 4096)
+Level 13 completed (n = 8192)
+Level 14 completed (n = 16384)
+Level 15 completed (n = 32768)
+Level 16 completed (n = 65536)
+
+Final Romberg Estimate : 4.244375107725e+05
+Total Time (serial)    : 176.169712 seconds
