@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -N romberg_mpi
+#PBS -l select=1:ncpus=4:mem=4gb 
+#PBS -l place=DUMMY_PLACEHOLDER
+#PBS -l walltime=00:59:00
+#PBS -q short_cpuQ
+#PBS -j oe
+#PBS -o DUMMY.out 
+
+cd $PBS_O_WORKDIR
+module load mpich-3.2
+
+DUMMY_EXEC_LINE
