@@ -1,0 +1,14 @@
+#!/bin/bash
+#PBS -N romberg_hybrid
+#PBS -l select=2:ncpus=4:mem=8gb
+#PBS -l place=pack
+#PBS -l walltime=0:59:00
+#PBS -q short_cpuQ
+#PBS -j oe
+#PBS -o DUMMY.out
+
+cd $PBS_O_WORKDIR
+module load mpich-3.2
+
+export OMP_NUM_THREADS=2
+DUMMY_EXEC_LINE
